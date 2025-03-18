@@ -1,0 +1,24 @@
+{
+    "photoUrl": "profile-pic-url.jpg",
+    "name": "John Doe",
+    "designation": "Software Engineer",
+    "description": "Experienced software engineer specializing in frontend development.",
+    "experience": [
+      {
+        "jobTitle": "Frontend Developer",
+        "company": "Tech Corp",
+        "startDate": "2020-01-01",
+        "endDate": "2022-12-31"
+      },
+      {
+        "jobTitle": "Junior Developer",
+        "company": "Web Solutions",
+        "startDate": "2018-06-01",
+        "endDate": "2019-12-31"
+      }
+    ],
+    "email": "john.doe@example.com",
+    "phone": "123-456-7890",
+    "address": "123 Main St, Cityville, Country"
+  }
+  

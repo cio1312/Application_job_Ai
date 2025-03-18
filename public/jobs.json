@@ -1,0 +1,19 @@
+[
+    {
+      "jobTitle": "Software Developer",
+      "jobDescription": "Responsible for writing code and developing software.",
+      "location": "New York",
+      "companyName": "Tech Corp",
+      "rate": "$60/hr",
+      "listedOn": "2024-12-01"
+    },
+    {
+      "jobTitle": "Data Analyst",
+      "jobDescription": "Analyze data and provide insights.",
+      "location": "San Francisco",
+      "companyName": "Data Inc",
+      "rate": "$50/hr",
+      "listedOn": "2024-11-15"
+    }
+  ]
+  

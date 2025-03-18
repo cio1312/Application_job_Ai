@@ -1,0 +1,32 @@
++-----------------------+     (1) Clicks "Premium Courses"      +----------------+
+|       User           | -------------------------------------> | React Frontend |
++-----------------------+                                       +----------------+
+                                                                  |
+                                                                  | (2) Calls Backend to Check Payment
+                                                                  |
+                                                                  v
+                                                +--------------------------------+
+                                                | Spring Boot Backend (API)     |
+                                                |   - /api/payments/check       |
+                                                +--------------------------------+
+                                                                  |
+                                                                  | (3) If not paid, show PayPal iframe
+                                                                  v
++-----------------------+       (4) User Pays      +-----------------------+
+|      PayPal         | <-----------------------> |  Payment.js (React)   |
++-----------------------+                           +-----------------------+
+                                                                  |
+                                                                  | (5) Order ID received, send to backend
+                                                                  |
+                                                                  v
+                                                +--------------------------------+
+                                                | Spring Boot Backend (API)     |
+                                                |   - /api/payments/confirm     |
+                                                |   - Marks user as "Paid"      |
+                                                +--------------------------------+
+                                                                  |
+                                                                  | (6) Redirect to /courses
+                                                                  v
+                                                         +-----------------+
+                                                         | Courses.js Page |
+                                                         +-----------------+

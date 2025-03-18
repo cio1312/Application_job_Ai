@@ -1,0 +1,20 @@
+
+[
+    {
+      "id": 1,
+      "jobTitle": "Software Engineer",
+      "company": "Tech Corp",
+      "location": "New York, NY",
+      "jobType": "Full-time",
+      "description": "Develop and maintain software applications. Collaborate with cross-functional teams."
+    },
+    {
+      "id": 2,
+      "jobTitle": "Frontend Developer",
+      "company": "Web Solutions",
+      "location": "Remote",
+      "jobType": "Contract",
+      "description": "Work on building responsive web applications using React.js and Redux."
+    }
+  ]
+  

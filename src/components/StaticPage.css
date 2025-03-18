@@ -1,0 +1,44 @@
+.static-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .static-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .static-content {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .static-content:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .static-page {
+      padding: 15px;
+    }
+  
+    .static-title {
+      font-size: 1.8rem;
+    }
+  
+    .static-content {
+      font-size: 1rem;
+    }
+  }
+  
